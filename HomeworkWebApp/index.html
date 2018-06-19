@@ -1,0 +1,53 @@
+<html>
+    <head header("Access-Control-Allow-Origin: *")>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" type="text/css" href="styles.css">
+       <script type="text/javascript"  src="./category.js"></script>
+       <title>Books by category</title>
+    </head>
+    <body>
+      <div id="mainBox">
+        <h1>Books by category</h1>
+        <select id="selectCategory" onchange="readBooks(this.value)">
+          <option selected disabled hidden>Select a category</option>
+          <option value="Science fiction">Science fiction</option>
+          <option value="Satire">Satire</option>
+          <option value="Drama">Drama</option>
+          <option value="Great Britain">Great Britain</option>
+          <option value="Action and Adventure">Action and Adventure</option>
+          <option value="Social Science">Social Science</option>
+          <option value="Political Science">Political Science</option>
+          <option value="Data structures">Data structures</option>
+          <option value="Self help">Self help</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Guide">Guide</option>
+          <option value="Travel">Travel</option>
+          <option value="Children's">Children's</option>
+          <option value="Religion">Religion</option>
+          <option value="Science">Science</option>
+          <option value="History">History</option>
+          <option value="Math">Math</option>
+          <option value="History">History</option>
+          <option value="Poetry">Poetry</option>
+          <option value="Encyclopedias">Encyclopedias</option>
+          <option value="Dictionaries">Dictionaries</option>
+          <option value="Comics">Comics</option>
+          <option value="Art">Art</option>
+          <option value="C+">C+</option>
+          <option value="Diaries">Diaries</option>
+          <option value="Journals">Journals</option>
+          <option value="Community life">Community life</option>
+          <option value="Series">Series</option>
+          <option value="Business & Economics">Business & Economics</option>
+          <option value="Biographies">Biographies</option>
+          <option value="Autobiographies">Autobiographies</option>
+          <option value="Fantasy">Fantasy</option>
+          <option value="Computers">Computers</option>
+          <option value="Java (Indonesia)">Java (Indonesia)</option>
+          <option value="Java">Java</option>
+          <option value="Java (Computer program language)">Java (Computer program language)</option>
+        </select>
+        <div id="booksBox"></div>
+      </div>
+    </body>
+</html>
